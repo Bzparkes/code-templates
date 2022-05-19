@@ -20,16 +20,18 @@ theme.addEventListener('change', e => {
 });
 
 
+
+
 // As above but with switch statement. Work in progress.
 
-// const option = document.querySelectorAll('option');
-// option.addEventListener('change', e =>{
+
+// theme.addEventListener('change', e => {
 //     switch(e) {
-//         case option.value === 'white':
+//         case e.target.value === 'white':
 //             document.body.style.backgroundColor = 'white';
 //             document.body.style.color = 'black';
 //             break;
-//         case option.value === 'black':
+//         case e.target.value === 'black':
 //             document.body.style.backgroundColor = 'black';
 //             document.body.style.color = 'white';
 //             break;
