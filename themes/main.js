@@ -1,7 +1,4 @@
-const body = document.querySelector('#body');
 const theme = document.querySelector('#theme');
-const white = document.querySelector('#white');
-const black = document.querySelector('#black');
 
 theme.addEventListener('change', e => {
     if(e.target.value === 'white'){
