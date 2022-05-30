@@ -12,7 +12,7 @@ theme.addEventListener('change', e => {
         document.body.style.color = 'white';
     } else if(e.target.value === 'pink'){
         document.body.style.backgroundColor = 'pink';
-        document.body.style.color = 'white';
+        document.body.style.color = 'black';
     } else if(e.target.value === 'blue'){
         document.body.style.backgroundColor = 'blue';
         document.body.style.color = 'white';
